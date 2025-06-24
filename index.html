@@ -3,10 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/style.css">
     <title>Alura Books</title>
 </head>
 <body>
-    <h1>Alurabooks</h1>
+    <header class="header">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu">
+                <span class="header__menu-hamburger container__imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Categorias</li>
+                <li class="lista-menu__item">
+                    <a class="lista-menu__link" href="#">Programação</a> 
+                </li>
+                 <li class="lista-menu__item">
+                    <a class="lista-menu__link" href="#">Front-end</a> 
+                </li>
+                 <li class="lista-menu__item">
+                    <a class="lista-menu__link" href="#">Infraestrutura</a> 
+                </li>
+                 <li class="lista-menu__item">
+                    <a class="lista-menu__link" href="#">Business</a> 
+                </li>
+                 <li class="lista-menu__item">
+                    <a class="lista-menu__link" href="#">Design & UX</a> 
+                </li>
+            </ul>
+            <img class="container__imagem" src="assets/Logo.svg" alt="Logo da Alurabooks">
+        </div>
+        <div class="container">
+            <a class="container__imagem" href="#"><img src="assets/Favoritos.svg" alt="icone de favoritos"></a>
+            <a class="container__imagem" href="#"><img src="assets/Compras.svg" alt="icone de compras"></a>
+            <a class="container__imagem" href=""><img src="assets/Usuario.svg" alt="icone de Usuario"></a>
+        </div>        
+    </header>
 </body>
 </html>
