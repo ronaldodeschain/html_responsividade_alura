@@ -48,8 +48,51 @@
     </section>
     <section class="carrossel">
         <h2 class="carrossel__titulo">Novos Lançamentos</h2>
+
+            <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+             <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="assets/ApacheKafka.svg" alt="livro sobre apache kafka e spring boot"></div>
+                <div class="swiper-slide"><img src="assets/Guia Front-end.svg" alt="livro guia para front end"></div>
+                <div class="swiper-slide"><img src="assets/Portugol.svg" alt="guia pratico de Portugol e lógica de programação"></div>
+                <div class="swiper-slide"><img src="assets/Javascript.svg" alt="um livro para estudar Javascript"></div>
+                <div class="swiper-slide"><img src="assets/Liderança.svg" alt="livro sobre liderança"></div>
+            </div>
+            
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            
+        </div>
+
+        <div class="card">
+            <div class="card__descricao">
+                <div class="descricao">
+                    <h3 class="descricao__titulo">Talvez voce se interesse por...</h3>
+                    <h2 class="descricao__titulo-livro">Angular 11 e Firebase</h2>
+                    <p class="descricao__texto">Construindo uma aplicação integrada com a plataforma</p>
+                </div>
+            </div>
+        </div>
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination:{
+                el: '.swiper-pagination',
+                type: 'bullets',
+            }
+        });
+    </script>
 </body>
 </html>

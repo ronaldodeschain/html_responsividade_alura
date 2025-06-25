@@ -7,3 +7,16 @@
     font-size: 1.125rem;
     padding: 1em 0 0.5em 0;
 }
+.swiper-slide img{
+    width: 100%;
+
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    display: none;
+}
+.swiper-pagination{
+    position: initial;
+    max-resolution: .5em 0;
+}
