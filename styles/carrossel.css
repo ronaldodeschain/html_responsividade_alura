@@ -18,5 +18,9 @@
 }
 .swiper-pagination{
     position: initial;
-    max-resolution: .5em 0;
+    margin: .5em 0;
+}
+.card__descricao{
+    display: flex;
+    justify-content: space-between;
 }
