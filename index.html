@@ -46,6 +46,29 @@
         <p class="banner__texto">Encontre em nossa estante o que precisa para o seu desenvolvimento</p>
         <input class="banner__pesquisa" type="search" placeholder="qual sera sua proxima leitura?">
     </section>
+    <div class="card">
+            <!-- 1a linha -->
+            <div class="card__descricao">
+                <!-- 1a coluna -->
+                <div class="descricao">
+                    <h3 class="descricao__titulo">Talvez voce se interesse por...</h3>
+                    <h2 class="descricao__titulo-livro">Angular 11 e Firebase</h2>
+                    <p class="descricao__texto">Construindo uma aplicação integrada com a plataforma</p>
+                </div>
+                <!-- 2a coluna -->
+                <img class="descricao__imagem" src="assets/Angular.svg">
+            </div>
+            <!-- 2a linha -->
+             <div class="card__botoes">
+                <!-- 1a coluna -->
+                <ul class="botoes">
+                    <li class="botoes__item"><img src="assets/Favoritos.svg" alt="Favoritar livro" ></li>
+                    <li class="botoes__item"><img src="assets/Compras.svg" alt="Adicionar ao carrinho de compras"></li>
+                </ul>
+                <!-- 2a coluna -->
+                 <a href="#" class="botoes__ancora">Saiba mais</a>
+             </div>
+        </div>
     <section class="carrossel">
         <h2 class="carrossel__titulo">Novos Lançamentos</h2>
 
@@ -71,30 +94,69 @@
 
             
         </div>
-
         <div class="card">
-            <!-- 1a linha -->
+            <!-- 1º linha -->
             <div class="card__descricao">
-                <!-- 1a coluna -->
+                <!-- 1º coluna -->
                 <div class="descricao">
-                    <h3 class="descricao__titulo">Talvez voce se interesse por...</h3>
-                    <h2 class="descricao__titulo-livro">Angular 11 e Firebase</h2>
-                    <p class="descricao__texto">Construindo uma aplicação integrada com a plataforma</p>
+                    <img src="assets/Estrelinhas.svg" alt="Avaliação 5 estrelas">
+                    <h3 class="descricao__titulo">Autora do Mês</h3>
+                    <h2 class="descricao__titulo-livro">Juliana Agarikov</h2>
+                    <p class="descricao__texto">Analista de sistemas e escritora, Juliana é especialista em Front-End.
+                    </p>
                 </div>
-                <!-- 2a coluna -->
-                <img class="descricao__imagem" src="assets/Angular.svg">
+                <!-- 2º coluna -->
+                <img src="assets/Escritora.svg" class="descricao__imagem">
             </div>
-            <!-- 2a linha -->
-             <div class="card__botoes">
-                <!-- 1a coluna -->
+
+            <!-- 2º linha -->
+            <div class="card__botoes">
+                <!-- 1º coluna -->
                 <ul class="botoes">
-                    <li class="botoes__item"><img src="assets/Favoritos.svg" alt="Favoritar livro" ></li>
-                    <li class="botoes__item"><img src="assets/Compras.svg" alt="Adicionar ao carrinho de compras"></li>
+                    <li class="botoes__item"><img src="assets/Favoritos.svg" alt="Favoritar livro"></li>
+                    <li class="botoes__item"><img src="assets/Compras.svg" alt="Adicionar no carrinho de compras"></li>
                 </ul>
-                <!-- 2a coluna -->
-                 <a href="#" class="botoes__ancora">Saiba mais</a>
-             </div>
+                <!-- 2º coluna -->
+                <a href="#" class="botoes__ancora">Saiba mais</a>
+            </div>
         </div>
+        
+    </section>
+
+    <section class="topicos">
+        <h2 class="topicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+        <ul class="topicos__lista">
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Android</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Marketing Digital</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Agile</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Startups</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">HTML e CSS</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Python</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">OO</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Java</a>
+            </li>
+        </ul>
+    </section>
+
+    <section class="contato">
+        <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+        <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+        <input type="email"  class="contato__email" placeholder="Cadastre seu e-mail">
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
