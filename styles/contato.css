@@ -29,7 +29,7 @@
     font-family: var(--fonte-principal);
     color: var(--azul);
     padding-left: 2em ;
-    background: url('/assets/Email.svg');
+    background: url('../assets/Email.svg');
     background-repeat: no-repeat;
 }
 @media screen and (min-width:1024px){
