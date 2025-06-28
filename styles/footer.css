@@ -1,0 +1,42 @@
+hr{
+    margin: 0;
+}
+
+.footer{
+    background-color: var(--branco);
+    padding: 1em;
+}
+
+.lista-footer{
+    display: none;
+}
+@media screen and (min-width: 1024px){
+    .footer{
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    .lista-footer__titulo{
+        color: var(--cinza-claro);
+        text-transform: uppercase;
+        font-weight: 400;
+        font-size: 0.875rem;
+    }
+    .lista-footer__item{
+        display: flex;
+        align-items: center;
+        margin: 0.5em 0;
+    }
+    .lista-footer__link{
+        text-decoration: none;
+        color: var(--cinza);
+        margin-left: 0.5em;
+    }
+    .footer__titulo{
+        font-size: 1.5rem;
+    }
+    .lista-footer{
+        display: block;
+    }
+}
+
