@@ -39,4 +39,13 @@ hr{
         display: block;
     }
 }
+@media screen and (min-width: 1728px) {
+    .lista-footer{
+        border-left: 1px solid var(--cinza-claro);
+        padding-left: 1em;
+    }
+    .footer{
+        padding: 3em;
+    }
+}
 
