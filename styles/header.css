@@ -8,7 +8,7 @@
 .header__menu-hamburger{
     width: 24px;
     height: 24px;
-    background-image: url("assets/Menu.svg");
+    background-image: url("../assets/Menu.svg");
     background-repeat: no-repeat;
     background-position: center;
     display: inline-block;
